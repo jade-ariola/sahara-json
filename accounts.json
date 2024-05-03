@@ -1,10 +1,61 @@
-[
-  {
+{
+  "accounts": [
+    {
       "username": "user1",
-      "password": "pass1"
-  },
-  {
-      "username": "user2",
-      "password": "pass2"
-  }
-]
+      "password": "password123",
+      "cart": [
+        {
+          "product": {
+            "id": 101,
+            "category": "Electronics",
+            "product_name": "Smartphone",
+            "description": "Latest smartphone model with advanced features.",
+            "price": 599.99,
+            "rating": {
+              "count": 200,
+              "average": 4.3
+            }
+          }
+        }
+      ],
+      "orders": [
+        {
+          "first_name": "John",
+          "last_name": "Doe",
+          "address": "123 Main St",
+          "city": "Anytown",
+          "zip_code": "12345",
+          "card_number": "1234 5678 9012 3456",
+          "expiration_date": "12/25",
+          "cvv": "123",
+          "product": {
+            "id": 101,
+            "category": "Electronics",
+            "product_name": "Smartphone",
+            "description": "Latest smartphone model with advanced features.",
+            "price": 599.99,
+            "rating": {
+              "count": 200,
+              "average": 4.3
+            }
+          }
+        }
+      ],
+      "saved": [
+        {
+          "product": {
+            "id": 102,
+            "category": "Clothing",
+            "product_name": "T-shirt",
+            "description": "Comfortable cotton t-shirt for everyday wear.",
+            "price": 19.99,
+            "rating": {
+              "count": 100,
+              "average": 3.8
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
